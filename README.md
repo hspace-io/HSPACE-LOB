@@ -13,7 +13,7 @@
 
 ## 접속방법
 ### 챌린지
-1. `SpaceAlone.ova` 파일을 다운받습니다. 
+1. `SpaceAlone.ova` 파일을 [다운](https://drive.google.com/file/d/11Bx_1c9ZLMwlAEsJ4ZtP48HuYGbb5m7a/view?usp=sharing)받습니다. 
 2. Oracle VirtualBox에서 `파일 > 가상 시스템 가져오기`를 눌러 `SpaceAlone.ova`를 추가합니다.
 3. 추가된 가상머신을 실행시켜줍니다.
 4. 다음 명령어를 이용해서 접속하면 됩니다.
