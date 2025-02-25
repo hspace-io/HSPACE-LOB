@@ -4,9 +4,8 @@
 ## 소개
 **Space Alone**은 기존 **LOB(The Lord of BOF)**의 정신적 계승작으로, Ubuntu 22.04 환경에서 실행되도록 설계된 보안 취약점 학습 및 도전형 문제집입니다.
 
-이 프로젝트는 **버퍼 오버플로우(BOF), ROP, FSB** 등의 다양한 보안 취약점 공격 기법을 실습할 수 있도록 구성되어 있으며, 단계별로 난이도가 상승하는 챌린지 형식으로 진행됩니다.
+이 프로젝트는 처음 시스템 해킹을 공부하시는 분들이 **버퍼 오버플로우(BOF), ROP, FSB** 등의 다양한 보안 취약점 공격 기법을 실습할 수 있도록 구성되어 있으며, 단계별로 난이도가 상승하는 챌린지 형식으로 진행됩니다.
 
-타겟은 포너블을 처음 공부하는 사람입니다. 
 
 ## 환경
 - Oracle VirtualBox
@@ -21,9 +20,9 @@
 ```bash
 ssh chall@localhost -p 6022
 #Password: start
-
+```
 ### 추가 환경 설정
-1. sudo 명령어를 사용가능한 계정은 다음 명령어를 통해서 접속가능합니다. 
+sudo 명령어를 사용가능한 계정은 다음 명령어를 통해서 접속가능합니다. 
 ```bash
 ssh knight@localhost -p 6022
 #Password: 1234
@@ -38,6 +37,8 @@ ssh knight@localhost -p 6022
 - `next` → **다음 챕터로 이동**하는 명령어
 
 ## 문제
+<details>
+<summary>챕터별 기법 (스포일러 방지)</summary> 
 |  챕터   |           기법            |
 | :---: | :---------------------: |
 | Ch 1  |        Basic BOF        |
@@ -45,11 +46,13 @@ ssh knight@localhost -p 6022
 | Ch 3  |        Stack BOF        |
 | Ch 4  |        Basic ROP        |
 | Ch 5  |        BOF, ROP         |
-| Ch 6  |  Canary / ASLR 우회, BOF  |
+| Ch 6  |        Canary, BOF      |
 | Ch 7  |   OOB, GOT Overwrite    |
 | Ch 8  |           FSB           |
 | Ch 9  |       Stack Pivot       |
 | Ch 10 | FSB, libc GOT Overwrite |
+
+</details>
 
 ## 풀이방법
 모든 문제에는 소스코드가 제공되며, 다음 스테이지로 넘어가기 위한 바이너리는 setuid가 걸려있기 때문에 디버깅이 불가능합니다. 바이너리를 복사하여 사용하면 정상적으로 디버깅이 가능합니다.    
@@ -73,9 +76,8 @@ ssh knight@localhost -p 6022
 | **circler**  |   Ch 10    |
 
 ### 환경 설정
-| **Arkea** | VM 환경 설정 및 커스텀 명령어 구현 |
-| --------- | --------------------- |
-| **Osori** | 커널 커스텀 및 추가 기능 구현  |
+ **Arkea** : VM 환경 설정 및 커스텀 명령어 구현   
+ **Osori** : 커널 커스텀 및 추가 기능 구현  
 
 
 
