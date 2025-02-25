@@ -39,6 +39,7 @@ ssh knight@localhost -p 6022
 ## 문제
 <details>
 <summary>챕터별 기법 (스포일러 방지)</summary> 
+   
 |  챕터   |           기법            |
 | :---: | :---------------------: |
 | Ch 1  |        Basic BOF        |
