@@ -1,6 +1,9 @@
 # Space Alone
 **Space Alone은 기존 LOB(The Lord of BOF)를 Ubuntu 22.04 환경에 맞춰 조정한 정신적 계승작 입니다.** 
 
+## 시놉시스
+좀비 바이러스가 세상을 뒤덮고, 주인공은 고립된 생활을 이어가며 칩거를 선택한다. 그러던 중, 한 생존자가 남긴 암호화된 파일을 우연히 열게 되고, 그 안에는 중요한 정보가 담겨 있었다. 그 파일을 따라가기로 결심한 주인공은 무기와 식량을 확보하며, 점차 더 위험한 상황 속으로 발을 들여놓는다.
+
 ## 소개
 **Space Alone**은 기존 **LOB(The Lord of BOF)**의 정신적 계승작으로, Ubuntu 22.04 환경에서 실행되도록 설계된 보안 취약점 학습 및 도전형 문제집입니다.
 
@@ -82,7 +85,7 @@ ssh knight@localhost -p 6022
 
 
 
-# 레퍼런스
+# Special Thanks to
 -  **[해커스쿨 The Lord of BOF](https://www.hackerschool.org/HS_Boards/zboard.php?id=HS_Notice&no=1170881885)**  
    - 본 프로젝트는 해커스쿨의 "The Lord of BOF"에서 영감을 받아 제작되었습니다. 원 제작자 mongii 님께 감사의 말씀을 드립니다. 
 
